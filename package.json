@@ -1,0 +1,19 @@
+{
+  "name": "ems",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "client": "npnm start --prefix client",
+    "server": "npm start --prefix server",
+    "dev": "concurrently \"npm start --prefix server\" \"npm start --prefix client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.0.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.7"
+  }
+}
