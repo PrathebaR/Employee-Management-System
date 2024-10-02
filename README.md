@@ -29,7 +29,7 @@ Make sure you have the following installed:
 ### Setup
 
 - Step:1 Create a Directory and then clone this git repo in it.
-git clone https://github.com/YourUsername/Employee-Management-System.git**
+git clone https://github.com/YourUsername/Employee-Management-System.git
 
 - Step:2 And then open terminal and type **(npm install)** which will download the necessary node modules for the project.
 
