@@ -18,7 +18,7 @@ An Employee Management System built using **MySQL**, **Express**, **React.js**, 
 
 ## Installation and Setup
 
-### Prerequisites
+### Prerequisite
 
 Make sure you have the following installed:
 
@@ -26,7 +26,7 @@ Make sure you have the following installed:
 - **MySQL**
 - **Git**
 
-### How to Use it
+### Setup
 
 - Step:1 Create a Directory and then clone this git repo in it.
 git clone https://github.com/YourUsername/Employee-Management-System.git**
