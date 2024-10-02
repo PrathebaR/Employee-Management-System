@@ -22,7 +22,7 @@ An Employee Management System built using **Node.js**, **Express**, **MySQL**, a
 
 Make sure you have the following installed:
 
-- **Node.js** (v14 or higher)
+- **Node.js**
 - **MySQL**
 - **Git**
 
@@ -31,11 +31,7 @@ Make sure you have the following installed:
 - Step:1 Create a Directory and then clone this git repo in it.
 git clone https://github.com/YourUsername/Employee-Management-System.git**
 
-- Step:2 And then open terminal and type
-  **npm install**
- which will download the necessary node modules for the project.
+- Step:2 And then open terminal and type ###npm install### which will download the necessary node modules for the project.
 
-- Step:3 Finally as a last step type this which will run the app in the development mode.
-
-#npm run dev#
+- Step:3 Finally as a last step type this which will run the app in the development mode.#npm run dev#
 
