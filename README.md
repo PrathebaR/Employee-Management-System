@@ -8,7 +8,7 @@ An Employee Management System built using **MySQL**, **Express**, **React.js**, 
 - **Update Employee**: Modify existing employee information and update the profile picture.
 - **View Employee**: View individual employee details.
 - **Delete Employee**: Remove an employee from the system.
-- **UI Interface**:Used Bootstrap for User Interactivity
+- **UI Interface**: Used Bootstrap for User Interactivity
 
 ## Technology Stack
 
