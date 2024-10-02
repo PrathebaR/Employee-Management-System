@@ -32,10 +32,10 @@ Make sure you have the following installed:
 git clone https://github.com/YourUsername/Employee-Management-System.git**
 
 - Step:2 And then open terminal and type
-  *npm install*
+  **npm install**
  which will download the necessary node modules for the project.
 
 - Step:3 Finally as a last step type this which will run the app in the development mode.
 
-##npm run dev##
+#npm run dev#
 
