@@ -1,6 +1,6 @@
 # Employee Management System (EMS)
 
-An Employee Management System built using **Node.js**, **Express**, **MySQL**, and **React.js**. This project allows managing employee records, including adding, updating, viewing, and deleting employee details, along with image uploads.
+An Employee Management System built using **MySQL**, **React.js**, **Node.js**, **Express**. This project allows managing employee records, including adding, updating, viewing, and deleting employee details, along with image uploads.
 
 ## Features
 
@@ -12,9 +12,9 @@ An Employee Management System built using **Node.js**, **Express**, **MySQL**, a
 
 ## Technology Stack
 
+- **Frontend**: React.js
 - **Backend**: Node.js, Express
 - **Database**: MySQL
-- **Frontend**: React.js
 - **Version Control**: Git, GitHub
 
 ## Installation and Setup
