@@ -1,0 +1,34 @@
+.navbar .container-fluid .d-flex{
+    margin:1rem;
+}
+
+.navbar .container-fluid .d-flex input{
+    border-radius:10px;
+    border:1px solid var(--textcol);
+    width:50%;
+    padding:0.7rem 1.5rem;
+}
+
+.navbar .container-fluid .d-flex .btn{
+    background-color:var(--color);
+    color:var(--white);
+    border-radius:10px;
+    border:none;
+    padding:0.7rem 1.5rem;
+}
+
+.navbar .container-fluid .d-flex button:hover{
+    font-size:1.01rem;
+    transition:0.3s all linear;
+}
+
+.navbar .container-fluid .d-flex #search{
+    font-size:1.3rem;
+    position:absolute;
+    padding:0.5rem 0.5rem;
+    opacity:0.4;
+}
+
+.navbar .container-fluid .d-flex ::placeholder{
+    text-align: center;
+}

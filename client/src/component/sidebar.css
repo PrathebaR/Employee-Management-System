@@ -1,0 +1,38 @@
+.sidebar{
+position:fixed;
+z-index:1;
+background-color:var(--sidebar);
+width:280px;
+height:100vh;
+padding:0.5rem;
+left:0px; top:65px;
+border-right:0.01rem solid var(--border);
+}
+
+.sidebar .links button{
+display:inline-block;
+margin:0rem 0rem 0rem 1rem;
+font-size:1rem;
+text-align:left;
+color:var(--textcol);
+background-color:inherit;
+padding:0.8rem 0.8rem;
+width:95%;
+border:none;
+border-radius:15px;
+}
+
+.sidebar .links button a{
+text-decoration:none;
+color:inherit;
+}
+
+.sidebar .links button:hover{
+transition:0.4s linear;
+background-color:var(--color);
+color:var(--white);
+}
+
+.sidebar .links #top{
+    margin-top:1.5rem;
+}

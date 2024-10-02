@@ -1,0 +1,60 @@
+.table #btn i{
+    font-size:1rem;
+}
+
+.table #btn button{
+    background-color:inherit;
+    border:0;
+    border-radius:50%;
+    padding:0.1rem 0.5rem;
+}
+
+.table #btn button:hover{
+    background-color:var(--border);
+    color:var(--white);
+}
+
+.table tbody img{
+    width:54px; height:50px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.popup {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color:rgba(245, 245, 245, 0.329);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    background-blend-mode: darken;
+    text-align: center;
+    width: 300px;
+}
+
+.popup-inner .trash i{
+    font-size:3rem;
+}
+
+.popup-actions {
+    display:inline-block;
+    margin:1rem;
+    margin-top: 20px;
+}
+
+.popup-actions button{
+    width:100px;
+    margin-left:0.5rem;
+}
+
+.popup-actions #btn-yes{
+    width: 100px;
+    background-color:var(--color);
+    color:var(--white);
+}

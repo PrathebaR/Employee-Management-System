@@ -1,0 +1,97 @@
+.viewforms .container{
+margin:1rem 0rem 0rem 1rem;
+max-width:900px;
+max-height:100px;
+}
+
+.viewforms .row{
+display:flex;
+flex-direction: row;
+justify-content:space-between;
+}
+
+.viewforms .col{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.viewforms h3{
+margin-left:1rem;
+}
+    
+.viewforms h3 i{
+font-size:1.8rem;
+color:black;
+}
+    
+.viewforms .container h5{
+color:var(--color);
+}
+
+.viewforms input[type="file"]{
+object-fit: fill;
+}
+
+.viewforms label{
+margin:0.2rem 0rem 0rem 0rem ;
+font-weight:500;
+}
+
+.viewforms input{
+width:80%;
+border-radius:5px;
+border:none
+}
+
+.viewforms .edit-image{
+width:100px; height:100px;
+border:1px solid var(--bg);
+background-color:inherit;
+border-radius:8px;
+position:relative;
+overflow: hidden;
+}
+
+.edit-image img{
+display:inline-block;
+margin:auto;
+position:relative;
+max-width:100px; max-height:100px;
+object-fit:cover;
+
+}
+
+.edit-image .image-placeholder{
+width: 100px;
+height: 100px;
+background-color:inherit;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.edit-image .image-placeholder i{
+font-size:1.7rem;
+color:var(--textcol);
+}
+
+.overlay{
+position:relative;
+display:flex;
+}
+
+.overlay .icon{
+position:absolute;
+background-color:blue;
+color:var(--white);
+left:4rem; bottom:-1rem;
+border-radius:50%;
+padding:0.5rem 0.7rem;
+}
+
+.overlay .icon input[type="file"]{
+position:absolute;
+left:0rem; top:0rem;
+opacity:0;
+}

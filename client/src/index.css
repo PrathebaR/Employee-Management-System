@@ -1,0 +1,19 @@
+*{
+  box-sizing:border-box;
+  font-size:medium;
+  --sidebar:rgba(224, 222, 222, 0.24);
+  --color:rgb(47, 146, 185);
+  --white:#ffff;
+  --black:#000000;
+  --bg:rgba(128, 128, 128, 0.459);
+  --textcol:grey;
+  --border:rgba(128, 128, 128, 0.459);
+}
+
+body {
+  margin-left:298px;
+  margin-top:80px;
+  padding:0;
+  background-color:var(--white);
+  font-family:poppins;
+}

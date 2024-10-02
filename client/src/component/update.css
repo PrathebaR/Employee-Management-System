@@ -1,0 +1,121 @@
+.forms h2{
+margin-left:2rem;
+}
+
+.forms .container{
+width:1000px;
+margin:1rem 0rem 1rem 1rem;
+}
+
+.forms .row{
+display:flex;
+flex-direction: row;
+justify-content:space-between;
+}
+
+.forms .col{
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.forms h5{
+color:var(--color);
+}
+
+.forms hr{
+width:28%;
+border:1.8px solid var(--color);
+}
+
+.forms h2 i{
+font-size:1.8rem;
+}
+
+.forms input[type="file"]{
+object-fit: fill;
+}
+
+.forms label{
+margin:0.7rem 0rem 0.3rem 0rem ;
+}
+
+.forms input[type="text"],[type="number"],select{
+width:80%;
+padding:0.4rem;
+border-radius:5px;
+border:1px solid var(--textcol);
+}
+
+.forms #status{
+width:39%;
+}
+
+.forms #submit{
+display: flex;
+justify-content: flex-end;
+}
+
+.forms #submit input[type="submit"]{
+margin:0.5rem;
+padding:0.8rem 1.8rem;
+border-radius:10px;
+border:1px solid var(--textcol); 
+}
+
+.forms #submit input[type="submit"]:hover{
+background-color:var(--color);
+color:var(--white);
+}
+
+.forms .edit-image{
+width:100px; height:100px;
+border:1px solid var(--textcol);
+background-color:inherit;
+border-radius:8px;
+position:relative;
+overflow: hidden;
+}
+
+.edit-image img{
+display:inline-block;
+margin:auto;
+position:relative;
+max-width:100px; max-height:100px;
+object-fit:cover;
+
+}
+
+.edit-image .image-placeholder{
+width: 100px;
+height: 100px;
+background-color:inherit;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.edit-image .image-placeholder i{
+font-size:1.7rem;
+color:var(--textcol);
+}
+
+.overlay{
+position:relative;
+display:flex;
+}
+
+.overlay .icon{
+position:absolute;
+background-color:blue;
+color:var(--white);
+left:4rem; bottom:-1rem;
+border-radius:50%;
+padding:0.5rem 0.7rem;
+}
+
+.overlay .icon input[type="file"]{
+position:absolute;
+left:0rem; top:0rem;
+opacity:0;
+}
