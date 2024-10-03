@@ -34,3 +34,4 @@ Make sure you have the following installed:
 
 - Step:3 Finally as a last step type this *(npm run dev)* which will run the app in the development mode.
 
+-Step:4 At last using PhpMyAdmin create and fill the data in your currently created database using the given queries from **(ems.sql)** and start your CRUD operation (And don't forget to change the database name in the server/index.js)
