@@ -9,7 +9,6 @@ import Empdisplay from './component/Empdisplay';
 import Addemp from './component/Addemp';
 import Updemp from './component/Updemp';
 import View from './component/View';
-import Delemp from './component/Alertbox';
 
 function App(){
     return (
@@ -23,7 +22,6 @@ function App(){
                 <Route path="/addemp" element={<Addemp/>}></Route>
                 <Route path="/updemp/:empid" element={<Updemp/>}></Route>
                 <Route path="/viewemp/:empid" element={<View/>}></Route>
-                <Route path="/delemp" element={<Delemp/>}></Route>
             </Routes>
             </div>
         </BrowserRouter>
