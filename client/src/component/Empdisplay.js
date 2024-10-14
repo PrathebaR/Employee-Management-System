@@ -5,7 +5,6 @@ import Searchadd from './Searchadd';
 
 function Empdisplay(){
     const [empvalue, setEmpvalue] = useState([]);
-    const [load, setLoad] = useState(true);
     const navigate = useNavigate();
 
     const [alert, setAlert] = useState(false);
@@ -17,7 +16,6 @@ function Empdisplay(){
             response.json())
         .then((data)=>{
             setEmpvalue(data);
-            setLoad(false);
         })
         .catch((error)=>{
             console.error("Error Occurred",error);
