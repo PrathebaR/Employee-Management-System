@@ -24,10 +24,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `emp`
+-- Table structure for table `employees`
 --
 
-CREATE TABLE `emp` (
+CREATE TABLE `employees` (
   `id` int(11) NOT NULL,
   `imagePath` varchar(255) NOT NULL,
   `empname` varchar(255) NOT NULL,
@@ -40,10 +40,10 @@ CREATE TABLE `emp` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `emp`
+-- Dumping data for table `employees`
 --
 
-INSERT INTO `emp` (`id`, `imagePath`, `empname`, `empid`, `department`, `designation`, `project`, `type`, `status`) VALUES
+INSERT INTO `employees` (`id`, `imagePath`, `empname`, `empid`, `department`, `designation`, `project`, `type`, `status`) VALUES
 (1, '\\images\\1727878808246-employee.png', 'Pradeep', 123456, 'Development', 'Android Developer', 'School Management System', 'Work from Home', 'Permanant'),
 (2, '\\images\\1727878188091-employee.png', 'Dharani', 61332, 'Business Development', 'Business Development Executive', 'Car Rental', 'Office', 'Permanant'),
 (3, '\\images\\1727878834480-employee.png', 'Pratheba', 21226045, 'Development', 'Full Stack Developer', 'Employees Management System', 'Office', 'Permanant'),
@@ -56,7 +56,7 @@ INSERT INTO `emp` (`id`, `imagePath`, `empname`, `empid`, `department`, `designa
 --
 -- Indexes for table `employees`
 --
-ALTER TABLE `emp`
+ALTER TABLE `employees`
   ADD PRIMARY KEY (`id`);
 
 --
